@@ -1,0 +1,3 @@
+CREATE DATABASE acg_judge
+    DEFAULT CHARACTER SET = 'utf8mb4';
+

@@ -1,0 +1,6 @@
+FROM ubuntu:22.04
+ADD go1.25.1.linux-amd64.tar.gz /opt
+ENV GOROOT=/opt/go
+RUN mkdir /go
+ENV GOPATH=/go
+ENV PATH=/opt/go/bin:$PATH
